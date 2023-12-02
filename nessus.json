@@ -1,0 +1,29 @@
+[{
+	"title":"CVE ID",
+	"text":null,
+	"type":"dynamic",
+	"locator":{
+		"class":"mb-3"
+	},
+	"identifier":{
+		"datatype":"string",
+		"level":"same",
+		"data":"unique",
+		"tag":"h2"
+	}
+},{
+	"title":"Plugin ID",
+	"text":null,
+	"type":"dynamic",
+	"locator":{
+		"class":"results-table table"
+	},
+	"identifier":{
+		"datatype":"string",
+		"level":"low",
+		"data":"table",
+		"parent":"tr",
+		"child":"td"
+	}
+}
+]
